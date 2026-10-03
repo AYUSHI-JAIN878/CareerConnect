@@ -1,0 +1,6 @@
+1. Install Node.js 18+ and MongoDB.
+2. Copy server/.env.example to server/.env and set MONGO_URI/JWT_SECRET.
+3. Copy client/.env.example to client/.env if the API is not localhost:5000.
+4. In server/: npm install && npm run seed && npm run dev
+5. In client/: npm install && npm run dev
+6. Open http://localhost:5173
